@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Relay\\": "src/"
+            "PHPrivoxy\\Relay\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Relay\\": "tests/"
+            "PHPrivoxy\\Relay\\": "tests/"
         }
     },
     "config": {
@@ -36,18 +36,5 @@
     },
     "provide": {
         "psr/http-server-handler-implementation": "1.0"
-    },
-    "scripts": {
-        "test": [
-            "php-cs-fixer fix --verbose --dry-run",
-            "phpcs",
-            "phpstan analyse",
-            "psalm",
-            "phpunit"
-        ],
-        "fix": [
-            "php-cs-fixer fix --verbose",
-            "phpcbf"
-        ]
     }
 }
