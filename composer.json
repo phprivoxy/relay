@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PHPrivoxy\\Relay\\": "src/"
+            "Relay\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PHPrivoxy\\Relay\\": "tests/"
+            "Relay\\": "tests/"
         }
     },
     "config": {
