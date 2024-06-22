@@ -1,5 +1,5 @@
 {
-    "name": "relay/relay",
+    "name": "phprivoxy/relay",
     "type": "library",
     "description": "A PSR-15 server request handler.",
     "keywords": [
